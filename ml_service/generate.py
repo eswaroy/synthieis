@@ -753,7 +753,7 @@ class DiabetesDataGenerator:
         }
 
         # Add sample patients
-        for i in range(min(3, len(tabular_df))):
+        for i in range(min(20, len(tabular_df))):
             patient_id = tabular_df.iloc[i]['patient_id']
             patient_ts = timeseries_df[timeseries_df['patient_id'] == patient_id]
 
