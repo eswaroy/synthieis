@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2025 Dasari Ranga Eswar (github: eswaroy)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Project: Multimodal Healthcare Data Generator
+
+This project generates synthetic multimodal healthcare data for research and development
+in medical AI applications. It includes structured data (EHR), unstructured text (clinical notes),
+and time-series medical data generation using advanced machine learning techniques.
+
+### Features:
+- Synthetic tabular healthcare data generation
+- Time-series medical data synthesis
+- Cross-modal data generation
+- Privacy-safe datasets for AI/ML research
+- Easy integration with healthcare analytics pipelines
+
+### Author:
+Dasari Ranga Eswar
+GitHub: https://github.com/eswaroy
+
+### Components (Included in Synthesis_main):
+- Client: React-based frontend for data visualization and configuration
+- Server: Python/Flask backend with ML service integration
+- ML Service: Advanced GAN-based data generation models
+
+For more information, visit: https://github.com/eswaroy/synthieis
