@@ -1,0 +1,783 @@
+2025-09-23 18:26:34,373 - api.api - INFO - Training request received: epochs=100, batch_size=32
+2025-09-23 18:26:35,280 - api.api - INFO - Training request received: epochs=100, batch_size=32
+2025-09-23 18:26:53,135 - api.api - INFO - Generation request: age=40, gender=GenderEnum.male, disease=DiseaseTypeEnum.diabetes, records=10
+2025-09-23 18:26:53,136 - model_registry - ERROR - No saved models found
+2025-09-23 18:26:53,958 - api.api - INFO - Generation request: age=40, gender=GenderEnum.male, disease=DiseaseTypeEnum.diabetes, records=10
+2025-09-23 18:26:53,958 - model_registry - ERROR - No saved models found
+2025-09-23 18:27:04,370 - api.api - ERROR - Status check failed: 'ModelRegistry' object has no attribute 'get_latest_timestamp'
+2025-09-23 18:27:05,603 - api.api - ERROR - Status check failed: 'ModelRegistry' object has no attribute 'get_latest_timestamp'
+2025-09-23 18:31:28,356 - api.api - INFO - Training request received: epochs=100, batch_size=32
+2025-09-23 18:31:28,357 - train - INFO - Starting training process...
+2025-09-23 18:31:28,357 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_merged_data.csv
+2025-09-23 18:31:28,873 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_tabular_data.csv
+2025-09-23 18:31:29,436 - data_utils - INFO - Successfully preprocessed 186507 records
+2025-09-23 18:31:39,534 - train - INFO - Created dataloader with 250 batches
+2025-09-23 18:31:39,534 - model_registry - INFO - Initializing models...
+2025-09-23 18:31:39,550 - model_registry - INFO - Models initialized on device: cpu
+2025-09-23 18:31:47,298 - train - INFO - Epoch 1/100 - TS G/D: 5.2149/0.1098 - Tab G/D: 0.8720/0.5352 - Cross: 0.4083
+2025-09-23 18:31:53,241 - train - INFO - Epoch 2/100 - TS G/D: 4.0080/0.2235 - Tab G/D: 1.3533/0.3460 - Cross: 0.3549
+2025-09-23 18:31:59,261 - train - INFO - Epoch 3/100 - TS G/D: 1.0621/0.6763 - Tab G/D: 1.7694/0.2383 - Cross: 0.3482
+2025-09-23 18:32:05,208 - train - INFO - Epoch 4/100 - TS G/D: 0.7264/0.6912 - Tab G/D: 2.1237/0.1851 - Cross: 0.3406
+2025-09-23 18:32:11,144 - train - INFO - Epoch 5/100 - TS G/D: 0.7144/0.6856 - Tab G/D: 2.2317/0.1972 - Cross: 0.3339
+2025-09-23 18:32:22,799 - train - INFO - Epoch 6/100 - TS G/D: 0.8044/0.6438 - Tab G/D: 2.1065/0.2346 - Cross: 0.3276
+2025-09-23 18:32:34,054 - train - INFO - Epoch 7/100 - TS G/D: 0.7097/0.6848 - Tab G/D: 1.8757/0.2518 - Cross: 0.3225
+2025-09-23 18:36:59,529 - api.api - INFO - Training request received: epochs=100, batch_size=32
+2025-09-23 18:36:59,529 - train - INFO - Starting training process...
+2025-09-23 18:36:59,530 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_merged_data.csv
+2025-09-23 18:37:00,673 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_tabular_data.csv
+2025-09-23 18:37:01,764 - data_utils - INFO - Successfully preprocessed 186507 records
+2025-09-23 18:37:59,407 - api.api - INFO - Training request received: epochs=10, batch_size=32
+2025-09-23 18:37:59,408 - train - INFO - Starting training process...
+2025-09-23 18:37:59,409 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_merged_data.csv
+2025-09-23 18:38:00,621 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_tabular_data.csv
+2025-09-23 18:38:01,725 - data_utils - INFO - Successfully preprocessed 186507 records
+2025-09-23 18:38:14,776 - train - INFO - Created dataloader with 250 batches
+2025-09-23 18:38:14,776 - model_registry - INFO - Initializing models...
+2025-09-23 18:38:14,788 - model_registry - INFO - Models initialized on device: cpu
+2025-09-23 18:38:24,300 - train - INFO - Epoch 1/10 - TS G/D: 5.0804/0.1093 - Tab G/D: 0.8786/0.5581 - Cross: 0.4058
+2025-09-23 18:38:31,680 - train - INFO - Epoch 2/10 - TS G/D: 8.1537/0.0004 - Tab G/D: 1.2613/0.3869 - Cross: 0.3549
+2025-09-23 18:38:38,947 - train - INFO - Epoch 3/10 - TS G/D: 3.4891/0.3702 - Tab G/D: 1.6762/0.2574 - Cross: 0.3476
+2025-09-23 18:38:46,389 - train - INFO - Epoch 4/10 - TS G/D: 1.8945/0.4562 - Tab G/D: 2.0403/0.1953 - Cross: 0.3392
+2025-09-23 18:38:53,719 - train - INFO - Epoch 5/10 - TS G/D: 0.6957/0.6911 - Tab G/D: 2.3371/0.1714 - Cross: 0.3316
+2025-09-23 18:39:01,184 - train - INFO - Epoch 6/10 - TS G/D: 0.6964/0.6928 - Tab G/D: 1.8718/0.2447 - Cross: 0.3253
+2025-09-23 18:39:08,492 - train - INFO - Epoch 7/10 - TS G/D: 0.6941/0.6910 - Tab G/D: 1.8550/0.2524 - Cross: 0.3210
+2025-09-23 18:39:15,795 - train - INFO - Epoch 8/10 - TS G/D: 0.6981/0.6906 - Tab G/D: 2.0428/0.2328 - Cross: 0.3179
+2025-09-23 18:39:23,086 - train - INFO - Epoch 9/10 - TS G/D: 0.7029/0.6855 - Tab G/D: 1.8715/0.2559 - Cross: 0.3155
+2025-09-23 18:39:30,427 - train - INFO - Epoch 10/10 - TS G/D: 0.7499/0.6752 - Tab G/D: 1.8688/0.2562 - Cross: 0.3137
+2025-09-23 18:39:30,449 - model_registry - INFO - Models saved with timestamp: 20250923_183930
+2025-09-23 18:39:30,449 - train - INFO - Training completed successfully
+2025-09-23 18:39:30,466 - model_registry - INFO - Models saved with timestamp: 20250923_183930
+2025-09-23 18:40:06,913 - api.api - INFO - Generation request: age=40, gender=GenderEnum.male, disease=DiseaseTypeEnum.diabetes, records=10
+2025-09-23 18:40:06,914 - generate - INFO - Generating 10 synthetic samples
+2025-09-23 18:40:06,921 - generate - INFO - Synthetic data generation completed
+2025-09-23 18:40:06,955 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_timeseries_20250923_184006_10.csv and C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_tabular_20250923_184006_10.csv
+2025-09-23 18:40:11,048 - api.api - INFO - Generation request: age=40, gender=GenderEnum.male, disease=DiseaseTypeEnum.diabetes, records=10
+2025-09-23 18:40:11,050 - generate - INFO - Generating 10 synthetic samples
+2025-09-23 18:40:11,055 - generate - INFO - Synthetic data generation completed
+2025-09-23 18:40:11,084 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_timeseries_20250923_184011_10.csv and C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_tabular_20250923_184011_10.csv
+2025-09-24 08:47:36,746 - api.api - INFO - Training request received: epochs=100, batch_size=32
+2025-09-24 08:47:36,747 - train - INFO - Starting training process...
+2025-09-24 08:47:36,748 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_merged_data.csv
+2025-09-24 08:47:37,946 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_tabular_data.csv
+2025-09-24 08:47:39,023 - data_utils - INFO - Successfully preprocessed 186507 records
+2025-09-26 10:29:01,772 - api.api - INFO - Training request received: epochs=10, batch_size=32
+2025-09-26 10:29:01,775 - train - INFO - Starting training process...
+2025-09-26 10:29:01,776 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_merged_data.csv
+2025-09-26 10:29:03,067 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_tabular_data.csv
+2025-09-26 10:29:04,373 - data_utils - INFO - Successfully preprocessed 186507 records
+2025-09-26 10:29:17,876 - train - INFO - Created dataloader with 250 batches
+2025-09-26 10:29:17,878 - model_registry - INFO - Initializing models...
+2025-09-26 10:29:17,892 - model_registry - INFO - Models initialized on device: cpu
+2025-09-26 10:29:44,996 - train - INFO - Epoch 1/10 - TS G/D: 4.8782/0.1206 - Tab G/D: 0.8683/0.5494 - Cross: 0.4040
+2025-09-26 10:30:09,778 - train - INFO - Epoch 2/10 - TS G/D: 7.4804/0.0018 - Tab G/D: 1.2761/0.3802 - Cross: 0.3522
+2025-09-26 10:30:33,701 - train - INFO - Epoch 3/10 - TS G/D: 4.2170/0.2555 - Tab G/D: 1.6635/0.2707 - Cross: 0.3434
+2025-09-26 10:30:58,029 - train - INFO - Epoch 4/10 - TS G/D: 0.7875/0.6928 - Tab G/D: 1.9597/0.2121 - Cross: 0.3348
+2025-09-26 10:31:22,075 - train - INFO - Epoch 5/10 - TS G/D: 0.6971/0.6627 - Tab G/D: 2.2476/0.1768 - Cross: 0.3276
+2025-09-26 10:31:45,470 - train - INFO - Epoch 6/10 - TS G/D: 0.9336/0.6495 - Tab G/D: 2.4984/0.1668 - Cross: 0.3219
+2025-09-26 10:32:07,618 - train - INFO - Epoch 7/10 - TS G/D: 0.7200/0.6877 - Tab G/D: 2.6296/0.1653 - Cross: 0.3183
+2025-09-26 10:32:31,718 - train - INFO - Epoch 8/10 - TS G/D: 0.7066/0.6940 - Tab G/D: 1.8247/0.2579 - Cross: 0.3155
+2025-09-26 10:32:55,215 - train - INFO - Epoch 9/10 - TS G/D: 0.7120/0.6794 - Tab G/D: 1.8527/0.2556 - Cross: 0.3134
+2025-09-26 10:33:18,915 - train - INFO - Epoch 10/10 - TS G/D: 0.7181/0.6878 - Tab G/D: 1.9101/0.2506 - Cross: 0.3122
+2025-09-26 10:33:18,968 - model_registry - INFO - Models saved with timestamp: 20250926_103318
+2025-09-26 10:33:18,968 - train - INFO - Training completed successfully
+2025-09-26 10:33:19,021 - model_registry - INFO - Models saved with timestamp: 20250926_103318
+2025-09-26 10:38:59,055 - api.api - INFO - Training request received: epochs=50, batch_size=32
+2025-09-26 10:38:59,057 - train - INFO - Starting training process...
+2025-09-26 10:38:59,057 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_merged_data.csv
+2025-09-26 10:39:00,239 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\delete\ml_service\datasets\cleaned_tabular_data.csv
+2025-09-26 10:39:01,517 - data_utils - INFO - Successfully preprocessed 186507 records
+2025-09-26 10:39:12,628 - train - INFO - Created dataloader with 250 batches
+2025-09-26 10:39:12,629 - model_registry - INFO - Initializing models...
+2025-09-26 10:39:12,639 - model_registry - INFO - Models initialized on device: cpu
+2025-09-26 10:39:22,277 - train - INFO - Epoch 1/50 - TS G/D: 4.4269/0.1333 - Tab G/D: 0.9123/0.5515 - Cross: 0.4063
+2025-09-26 10:39:29,698 - train - INFO - Epoch 2/50 - TS G/D: 3.0712/0.2524 - Tab G/D: 1.2930/0.3715 - Cross: 0.3547
+2025-09-26 10:39:37,409 - train - INFO - Epoch 3/50 - TS G/D: 0.8870/0.6436 - Tab G/D: 1.8371/0.2339 - Cross: 0.3474
+2025-09-26 10:39:44,785 - train - INFO - Epoch 4/50 - TS G/D: 0.7012/0.6861 - Tab G/D: 2.0928/0.2080 - Cross: 0.3396
+2025-09-26 10:39:52,263 - train - INFO - Epoch 5/50 - TS G/D: 0.7562/0.6726 - Tab G/D: 2.0906/0.2000 - Cross: 0.3322
+2025-09-26 10:39:59,667 - train - INFO - Epoch 6/50 - TS G/D: 0.6973/0.6901 - Tab G/D: 1.8320/0.2492 - Cross: 0.3263
+2025-09-26 10:40:07,202 - train - INFO - Epoch 7/50 - TS G/D: 0.7025/0.6863 - Tab G/D: 1.8634/0.2515 - Cross: 0.3221
+2025-09-26 10:40:14,535 - train - INFO - Epoch 8/50 - TS G/D: 0.7043/0.6836 - Tab G/D: 1.8938/0.2460 - Cross: 0.3187
+2025-09-26 10:40:21,830 - train - INFO - Epoch 9/50 - TS G/D: 0.7078/0.6825 - Tab G/D: 1.8730/0.2547 - Cross: 0.3157
+2025-09-26 10:40:29,324 - train - INFO - Epoch 10/50 - TS G/D: 0.7345/0.6795 - Tab G/D: 1.9182/0.2513 - Cross: 0.3132
+2025-09-26 10:40:36,679 - train - INFO - Epoch 11/50 - TS G/D: 0.7068/0.6866 - Tab G/D: 1.8809/0.2645 - Cross: 0.3122
+2025-09-26 10:40:44,054 - train - INFO - Epoch 12/50 - TS G/D: 0.7063/0.6898 - Tab G/D: 1.8944/0.2568 - Cross: 0.3108
+2025-09-26 10:40:51,455 - train - INFO - Epoch 13/50 - TS G/D: 0.8208/0.6647 - Tab G/D: 1.9141/0.2559 - Cross: 0.3100
+2025-09-26 10:40:58,855 - train - INFO - Epoch 14/50 - TS G/D: 0.9794/0.5858 - Tab G/D: 1.9132/0.2550 - Cross: 0.3092
+2025-09-26 10:41:06,255 - train - INFO - Epoch 15/50 - TS G/D: 0.8743/0.6028 - Tab G/D: 1.9246/0.2536 - Cross: 0.3091
+2025-09-26 10:41:13,654 - train - INFO - Epoch 16/50 - TS G/D: 0.9029/0.6169 - Tab G/D: 1.9398/0.2534 - Cross: 0.3091
+2025-09-26 10:41:21,055 - train - INFO - Epoch 17/50 - TS G/D: 0.8156/0.6316 - Tab G/D: 1.9374/0.2531 - Cross: 0.3087
+2025-09-26 10:41:28,370 - train - INFO - Epoch 18/50 - TS G/D: 0.7119/0.6805 - Tab G/D: 1.9448/0.2529 - Cross: 0.3085
+2025-09-26 10:41:35,763 - train - INFO - Epoch 19/50 - TS G/D: 0.8114/0.6578 - Tab G/D: 1.9502/0.2535 - Cross: 0.3082
+2025-09-26 10:41:43,258 - train - INFO - Epoch 20/50 - TS G/D: 1.0929/0.5380 - Tab G/D: 1.9499/0.2523 - Cross: 0.3085
+2025-09-26 10:41:50,607 - train - INFO - Epoch 21/50 - TS G/D: 1.1803/0.5069 - Tab G/D: 1.9634/0.2514 - Cross: 0.3085
+2025-09-26 10:41:57,974 - train - INFO - Epoch 22/50 - TS G/D: 1.1286/0.5117 - Tab G/D: 1.9621/0.2519 - Cross: 0.3082
+2025-09-26 10:42:05,456 - train - INFO - Epoch 23/50 - TS G/D: 1.0101/0.5330 - Tab G/D: 1.9605/0.2514 - Cross: 0.3081
+2025-09-26 10:42:12,810 - train - INFO - Epoch 24/50 - TS G/D: 1.1426/0.4975 - Tab G/D: 1.9685/0.2516 - Cross: 0.3079
+2025-09-26 10:42:20,240 - train - INFO - Epoch 25/50 - TS G/D: 1.0971/0.5115 - Tab G/D: 1.9668/0.2512 - Cross: 0.3079
+2025-09-26 10:42:27,628 - train - INFO - Epoch 26/50 - TS G/D: 1.0434/0.5235 - Tab G/D: 1.9794/0.2504 - Cross: 0.3082
+2025-09-26 10:42:35,009 - train - INFO - Epoch 27/50 - TS G/D: 1.4118/0.4492 - Tab G/D: 1.9702/0.2504 - Cross: 0.3080
+2025-09-26 10:42:42,407 - train - INFO - Epoch 28/50 - TS G/D: 5.2496/0.0076 - Tab G/D: 1.9809/0.2496 - Cross: 0.3080
+2025-09-26 10:42:49,834 - train - INFO - Epoch 29/50 - TS G/D: 6.4807/0.0246 - Tab G/D: 1.9847/0.2500 - Cross: 0.3078
+2025-09-26 10:42:57,255 - train - INFO - Epoch 30/50 - TS G/D: 6.0121/0.0051 - Tab G/D: 1.9874/0.2499 - Cross: 0.3080
+2025-09-26 10:43:08,669 - train - INFO - Epoch 31/50 - TS G/D: 6.9181/0.0011 - Tab G/D: 1.9825/0.2500 - Cross: 0.3082
+2025-09-26 10:43:32,418 - train - INFO - Epoch 32/50 - TS G/D: 3.3854/0.2898 - Tab G/D: 1.9876/0.2499 - Cross: 0.3081
+2025-09-26 10:43:54,079 - train - INFO - Epoch 33/50 - TS G/D: 1.3717/0.4527 - Tab G/D: 1.9936/0.2499 - Cross: 0.3081
+2025-09-26 10:44:01,464 - train - INFO - Epoch 34/50 - TS G/D: 1.3591/0.4264 - Tab G/D: 1.9983/0.2499 - Cross: 0.3082
+2025-09-26 10:44:08,822 - train - INFO - Epoch 35/50 - TS G/D: 1.3290/0.4352 - Tab G/D: 1.9924/0.2494 - Cross: 0.3079
+2025-09-26 10:44:16,178 - train - INFO - Epoch 36/50 - TS G/D: 1.1636/0.4762 - Tab G/D: 2.0103/0.2496 - Cross: 0.3082
+2025-09-26 10:44:23,542 - train - INFO - Epoch 37/50 - TS G/D: 1.0859/0.4982 - Tab G/D: 1.9905/0.2500 - Cross: 0.3080
+2025-09-26 10:44:30,924 - train - INFO - Epoch 38/50 - TS G/D: 1.0457/0.5072 - Tab G/D: 2.0083/0.2500 - Cross: 0.3079
+2025-09-26 10:44:38,254 - train - INFO - Epoch 39/50 - TS G/D: 1.0581/0.5020 - Tab G/D: 1.9985/0.2498 - Cross: 0.3078
+2025-09-26 10:44:45,675 - train - INFO - Epoch 40/50 - TS G/D: 1.0724/0.5002 - Tab G/D: 2.0024/0.2503 - Cross: 0.3080
+2025-09-26 10:44:53,132 - train - INFO - Epoch 41/50 - TS G/D: 1.0085/0.5195 - Tab G/D: 2.0054/0.2504 - Cross: 0.3079
+2025-09-26 10:45:00,488 - train - INFO - Epoch 42/50 - TS G/D: 1.0925/0.4934 - Tab G/D: 2.0004/0.2495 - Cross: 0.3082
+2025-09-26 10:45:07,888 - train - INFO - Epoch 43/50 - TS G/D: 1.1738/0.4723 - Tab G/D: 2.0047/0.2493 - Cross: 0.3079
+2025-09-26 10:45:15,230 - train - INFO - Epoch 44/50 - TS G/D: 1.1728/0.4700 - Tab G/D: 2.0082/0.2499 - Cross: 0.3080
+2025-09-26 10:45:22,539 - train - INFO - Epoch 45/50 - TS G/D: 1.0654/0.5098 - Tab G/D: 2.0004/0.2491 - Cross: 0.3079
+2025-09-26 10:45:29,948 - train - INFO - Epoch 46/50 - TS G/D: 1.0022/0.5270 - Tab G/D: 2.0137/0.2499 - Cross: 0.3079
+2025-09-26 10:45:37,271 - train - INFO - Epoch 47/50 - TS G/D: 1.0360/0.5099 - Tab G/D: 2.0107/0.2497 - Cross: 0.3078
+2025-09-26 10:45:44,615 - train - INFO - Epoch 48/50 - TS G/D: 1.1485/0.4841 - Tab G/D: 2.0048/0.2493 - Cross: 0.3077
+2025-09-26 10:45:52,010 - train - INFO - Epoch 49/50 - TS G/D: 1.0801/0.5064 - Tab G/D: 2.0168/0.2495 - Cross: 0.3078
+2025-09-26 10:45:59,667 - train - INFO - Epoch 50/50 - TS G/D: 1.1642/0.4890 - Tab G/D: 2.0050/0.2497 - Cross: 0.3078
+2025-09-26 10:45:59,691 - model_registry - INFO - Models saved with timestamp: 20250926_104559
+2025-09-26 10:45:59,691 - train - INFO - Training completed successfully
+2025-09-26 10:45:59,710 - model_registry - INFO - Models saved with timestamp: 20250926_104559
+2025-09-26 10:46:41,289 - api.api - INFO - Generation request: age=40, gender=GenderEnum.male, disease=DiseaseTypeEnum.diabetes, records=50
+2025-09-26 10:46:41,291 - generate - INFO - Generating 50 synthetic samples
+2025-09-26 10:46:41,302 - generate - INFO - Synthetic data generation completed
+2025-09-26 10:46:41,371 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_timeseries_20250926_104641_50.csv and C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_tabular_20250926_104641_50.csv
+2025-09-26 10:46:44,166 - api.api - INFO - Generation request: age=40, gender=GenderEnum.male, disease=DiseaseTypeEnum.diabetes, records=50
+2025-09-26 10:46:44,167 - generate - INFO - Generating 50 synthetic samples
+2025-09-26 10:46:44,174 - generate - INFO - Synthetic data generation completed
+2025-09-26 10:46:44,252 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_timeseries_20250926_104644_50.csv and C:\Users\Asus\Desktop\delete\ml_service\synthetic_data\synthetic_tabular_20250926_104644_50.csv
+2025-09-26 19:41:16,340 - api.api - INFO - Starting model training...
+2025-09-26 19:41:16,342 - train - INFO - Starting diabetes prediction model training...
+2025-09-26 19:41:16,342 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-09-26 19:41:16,435 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-09-26 19:41:16,575 - data_utils - INFO - Successfully preprocessed 20007 records
+2025-09-26 19:41:28,506 - train - INFO - Epoch 10/50 - Train Loss: 0.4548, Val Loss: 0.4467, Diabetes Acc: 0.9968, BP Acc: 0.7987
+2025-09-26 19:41:30,996 - train - INFO - Epoch 20/50 - Train Loss: 0.4446, Val Loss: 0.4293, Diabetes Acc: 0.9968, BP Acc: 0.8052
+2025-09-26 19:41:33,593 - train - INFO - Epoch 30/50 - Train Loss: 0.4364, Val Loss: 0.4406, Diabetes Acc: 0.9968, BP Acc: 0.8117
+2025-09-26 19:41:36,131 - train - INFO - Epoch 40/50 - Train Loss: 0.4254, Val Loss: 0.4343, Diabetes Acc: 0.9968, BP Acc: 0.7987
+2025-09-26 19:41:38,713 - train - INFO - Epoch 50/50 - Train Loss: 0.4205, Val Loss: 0.4436, Diabetes Acc: 0.9968, BP Acc: 0.7955
+2025-09-26 19:41:38,713 - train - INFO - Training completed successfully
+2025-09-26 19:43:13,166 - api.api - INFO - Generating 100 synthetic samples...
+2025-09-26 19:43:13,167 - generate - INFO - Generating 100 synthetic diabetes samples...
+2025-09-26 19:43:13,299 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_20250926_194313_100.csv and C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_20250926_194313_100.csv
+2025-09-26 19:43:14,481 - api.api - INFO - Generating 100 synthetic samples...
+2025-09-26 19:43:14,481 - generate - INFO - Generating 100 synthetic diabetes samples...
+2025-09-26 19:43:14,598 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_20250926_194314_100.csv and C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_20250926_194314_100.csv
+2025-09-26 19:50:49,907 - api.api - INFO - Starting model training...
+2025-09-26 19:50:49,908 - train - INFO - Starting diabetes prediction model training...
+2025-09-26 19:50:49,908 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-09-26 19:50:49,948 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-09-26 19:50:50,151 - data_utils - INFO - Successfully preprocessed 20007 records
+2025-09-26 19:51:08,452 - train - INFO - Epoch 10/100 - Train Loss: 0.1915, Val Loss: 0.1633, Diabetes Acc: 0.9935, BP Acc: 0.9416
+2025-09-26 19:51:11,005 - train - INFO - Epoch 20/100 - Train Loss: 0.1772, Val Loss: 0.1496, Diabetes Acc: 0.9968, BP Acc: 0.9318
+2025-09-26 19:51:13,605 - train - INFO - Epoch 30/100 - Train Loss: 0.1394, Val Loss: 0.1941, Diabetes Acc: 0.9838, BP Acc: 0.9318
+2025-09-26 19:51:16,401 - train - INFO - Epoch 40/100 - Train Loss: 0.1185, Val Loss: 0.1188, Diabetes Acc: 0.9968, BP Acc: 0.9545
+2025-09-26 19:51:19,066 - train - INFO - Epoch 50/100 - Train Loss: 0.0938, Val Loss: 0.1136, Diabetes Acc: 0.9968, BP Acc: 0.9481
+2025-09-26 19:51:21,617 - train - INFO - Epoch 60/100 - Train Loss: 0.0885, Val Loss: 0.0947, Diabetes Acc: 0.9968, BP Acc: 0.9578
+2025-09-26 19:51:24,213 - train - INFO - Epoch 70/100 - Train Loss: 0.0603, Val Loss: 0.0846, Diabetes Acc: 1.0000, BP Acc: 0.9675
+2025-09-26 19:51:26,843 - train - INFO - Epoch 80/100 - Train Loss: 0.0643, Val Loss: 0.1474, Diabetes Acc: 1.0000, BP Acc: 0.9286
+2025-09-26 19:51:29,436 - train - INFO - Epoch 90/100 - Train Loss: 0.0535, Val Loss: 0.0770, Diabetes Acc: 1.0000, BP Acc: 0.9578
+2025-09-26 19:51:31,964 - train - INFO - Epoch 100/100 - Train Loss: 0.0463, Val Loss: 0.0881, Diabetes Acc: 0.9968, BP Acc: 0.9610
+2025-09-26 19:51:31,964 - train - INFO - Training completed successfully
+2025-09-26 19:51:52,197 - api.api - INFO - Generating 101 synthetic samples...
+2025-09-26 19:51:52,198 - generate - INFO - Generating 101 synthetic diabetes samples...
+2025-09-26 19:51:52,321 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_20250926_195152_101.csv and C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_20250926_195152_101.csv
+2025-09-26 19:51:52,323 - generate - INFO - Tabular data columns: ['patient_id', 'age', 'bmi', 'average_rbs', 'hba1c', 'hypertension', 'respiratory_rate', 'heart_rate', 'spo2', 'diabetes', 'bp_status']
+2025-09-26 19:51:52,324 - generate - INFO - Sample hypertension values: ['151/120', '151/99', '164/88', '145/106', '155/114']
+2025-11-01 13:06:32,962 - api.api - INFO - Starting model training...
+2025-11-01 13:06:32,963 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:06:32,964 - data_utils - INFO - Loading time series data from string
+2025-11-01 13:06:32,981 - data_utils - ERROR - Error in data preprocessing: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:06:32,987 - api.api - ERROR - Training failed: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:06:32,998 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 38, in train_models
+    history = trainer.train_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 28, in train_model
+    merged_data = self.preprocessor.load_and_preprocess_data(ts_path, tab_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\data_utils.py", line 21, in load_and_preprocess_data
+    time_series_data = pd.read_csv(time_series_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'string'
+
+2025-11-01 13:06:36,251 - api.api - INFO - Starting model training...
+2025-11-01 13:06:36,251 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:06:36,252 - data_utils - INFO - Loading time series data from string
+2025-11-01 13:06:36,252 - data_utils - ERROR - Error in data preprocessing: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:06:36,252 - api.api - ERROR - Training failed: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:06:36,256 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 38, in train_models
+    history = trainer.train_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 28, in train_model
+    merged_data = self.preprocessor.load_and_preprocess_data(ts_path, tab_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\data_utils.py", line 21, in load_and_preprocess_data
+    time_series_data = pd.read_csv(time_series_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'string'
+
+2025-11-01 13:37:22,679 - api.api - INFO - Starting model training...
+2025-11-01 13:37:22,680 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:37:22,681 - data_utils - INFO - Loading time series data from string
+2025-11-01 13:37:22,697 - data_utils - ERROR - Error in data preprocessing: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:37:22,698 - api.api - ERROR - Training failed: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:37:22,710 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 38, in train_models
+    history = trainer.train_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 28, in train_model
+    merged_data = self.preprocessor.load_and_preprocess_data(ts_path, tab_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\data_utils.py", line 21, in load_and_preprocess_data
+    time_series_data = pd.read_csv(time_series_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'string'
+
+2025-11-01 13:40:04,880 - config - INFO - Using Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:40:04,880 - config - INFO - Using Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:40:38,424 - config - INFO - Using Time Series Path: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:40:38,424 - config - INFO - Using Tabular Path: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:40:45,247 - api.api - INFO - Starting model training...
+2025-11-01 13:40:45,249 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:40:45,249 - data_utils - INFO - Loading time series data from string
+2025-11-01 13:40:45,264 - data_utils - ERROR - Error in data preprocessing: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:40:45,265 - api.api - ERROR - Training failed: [Errno 2] No such file or directory: 'string'
+2025-11-01 13:40:45,276 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 38, in train_models
+    history = trainer.train_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 28, in train_model
+    merged_data = self.preprocessor.load_and_preprocess_data(ts_path, tab_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\data_utils.py", line 21, in load_and_preprocess_data
+    time_series_data = pd.read_csv(time_series_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'string'
+
+2025-11-01 13:42:51,287 - config - INFO - Using Time Series Path: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:42:51,288 - config - INFO - Using Tabular Path: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:42:51,301 - api.api - INFO - Starting model training...
+2025-11-01 13:42:51,302 - api.api - INFO - Using paths - TS: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv, Tabular: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:42:51,302 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:42:51,302 - data_utils - INFO - Loading time series data from https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:42:52,825 - data_utils - ERROR - Error in data preprocessing: Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
+
+2025-11-01 13:42:52,825 - api.api - ERROR - Training failed: Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
+
+2025-11-01 13:42:52,831 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 213, in train_models
+    history = trainer.train_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 28, in train_model
+    merged_data = self.preprocessor.load_and_preprocess_data(ts_path, tab_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\data_utils.py", line 215, in load_and_preprocess_data
+    time_series_data = pd.read_csv(time_series_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
+
+
+2025-11-01 13:43:45,486 - config - INFO - Using Time Series Path: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:43:45,487 - config - INFO - Using Tabular Path: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:44:02,900 - api.api - INFO - Starting model training...
+2025-11-01 13:44:02,901 - api.api - INFO - Using paths - TS: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv, Tabular: https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:44:02,901 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:44:02,901 - data_utils - INFO - Loading time series data from https://github.com/eswaroy/synthieis/blob/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:44:05,071 - data_utils - ERROR - Error in data preprocessing: Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
+
+2025-11-01 13:44:05,072 - api.api - ERROR - Training failed: Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
+
+2025-11-01 13:44:05,081 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 213, in train_models
+    history = trainer.train_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 28, in train_model
+    merged_data = self.preprocessor.load_and_preprocess_data(ts_path, tab_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\data_utils.py", line 215, in load_and_preprocess_data
+    time_series_data = pd.read_csv(time_series_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 38, saw 2
+
+
+2025-11-01 13:48:21,498 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 13:48:21,499 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:48:21,499 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:48:29,784 - api.api - INFO - Starting model training...
+2025-11-01 13:48:29,785 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:48:29,786 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 13:48:29,786 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:48:29,872 - data_utils - INFO - Time series data loaded: (20007, 3)
+2025-11-01 13:48:29,873 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 13:48:29,920 - data_utils - INFO - Tabular data loaded: (1539, 11)
+2025-11-01 13:48:29,929 - data_utils - INFO - Merging time series and tabular data...
+2025-11-01 13:48:29,983 - data_utils - INFO - Merged data shape: (20007, 13)
+2025-11-01 13:48:30,141 - data_utils - INFO - Successfully preprocessed 20007 records
+2025-11-01 13:48:30,151 - data_utils - INFO - Unique patients: 1539
+2025-11-01 13:48:33,533 - data_utils - INFO - Prepared 1539 patient sequences
+2025-11-01 13:48:33,534 - data_utils - INFO - Sequence shape: (1539, 13, 1)
+2025-11-01 13:48:33,534 - data_utils - INFO - Tabular shape: (1539, 9)
+2025-11-01 13:48:44,536 - train - INFO - Epoch 10/50 - Train Loss: 0.2032, Val Loss: 0.1648, Diabetes Acc: 0.9903, BP Acc: 0.9351
+2025-11-01 13:48:47,470 - train - INFO - Epoch 20/50 - Train Loss: 0.1463, Val Loss: 0.1449, Diabetes Acc: 1.0000, BP Acc: 0.9318
+2025-11-01 13:48:50,105 - train - INFO - Epoch 30/50 - Train Loss: 0.1335, Val Loss: 0.1431, Diabetes Acc: 1.0000, BP Acc: 0.9286
+2025-11-01 13:48:52,783 - train - INFO - Epoch 40/50 - Train Loss: 0.1127, Val Loss: 0.1250, Diabetes Acc: 0.9968, BP Acc: 0.9513
+2025-11-01 13:48:55,455 - train - INFO - Epoch 50/50 - Train Loss: 0.0870, Val Loss: 0.0875, Diabetes Acc: 1.0000, BP Acc: 0.9643
+2025-11-01 13:48:55,456 - train - INFO - Training completed successfully
+2025-11-01 13:50:17,710 - api.api - INFO - Generating 110 synthetic samples...
+2025-11-01 13:50:17,710 - generate - INFO - Generating 110 synthetic diabetes samples...
+2025-11-01 13:50:17,852 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_20251101_135017_110.csv and C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_20251101_135017_110.csv
+2025-11-01 13:50:17,853 - generate - INFO - Tabular data columns: ['patient_id', 'age', 'bmi', 'average_rbs', 'hba1c', 'hypertension', 'respiratory_rate', 'heart_rate', 'spo2', 'diabetes', 'bp_status']
+2025-11-01 13:50:17,854 - generate - INFO - Sample hypertension values: ['112/73', '160/88', '170/99', '165/105', '135/105']
+2025-11-01 13:50:29,708 - api.api - INFO - Generating 1000 synthetic samples...
+2025-11-01 13:50:29,708 - generate - INFO - Generating 1000 synthetic diabetes samples...
+2025-11-01 13:50:30,666 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_20251101_135030_1000.csv and C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_20251101_135030_1000.csv
+2025-11-01 13:50:30,667 - generate - INFO - Tabular data columns: ['patient_id', 'age', 'bmi', 'average_rbs', 'hba1c', 'hypertension', 'respiratory_rate', 'heart_rate', 'spo2', 'diabetes', 'bp_status']
+2025-11-01 13:50:30,668 - generate - INFO - Sample hypertension values: ['160/100', '180/116', '141/120', '135/110', '155/100']
+2025-11-01 13:50:51,084 - api.api - INFO - Generating 1000 synthetic samples...
+2025-11-01 13:50:51,085 - generate - INFO - Generating 1000 synthetic diabetes samples...
+2025-11-01 13:50:51,818 - generate - INFO - Synthetic data saved to C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_20251101_135051_1000.csv and C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_20251101_135051_1000.csv
+2025-11-01 13:50:51,818 - generate - INFO - Tabular data columns: ['patient_id', 'age', 'bmi', 'average_rbs', 'hba1c', 'hypertension', 'respiratory_rate', 'heart_rate', 'spo2', 'diabetes', 'bp_status']
+2025-11-01 13:50:51,819 - generate - INFO - Sample hypertension values: ['115/77', '174/110', '137/111', '141/101', '158/93']
+2025-11-01 13:51:14,816 - api.api - INFO - Starting comprehensive data validation...
+2025-11-01 13:51:15,878 - api.api - INFO - Validation completed. Quality score: 0.9523
+2025-11-01 13:58:20,385 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 13:58:20,385 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 13:58:20,385 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:03:29,064 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:03:29,065 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:03:29,066 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:08:20,698 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:08:20,698 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:08:20,698 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:08:20,955 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:08:20,959 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:08:20,959 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:08:26,882 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:08:26,882 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:08:26,882 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:08:27,027 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:08:27,030 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:08:27,030 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:09:19,138 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:09:19,139 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:09:19,140 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:09:19,717 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:13:52,658 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:13:52,659 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:13:52,660 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:13:52,865 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:13:52,869 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:13:52,869 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:13:52,901 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:14:06,386 - api.api - INFO - Starting model training...
+2025-11-01 14:14:06,386 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:14:06,387 - train - INFO - Starting diabetes prediction model training...
+2025-11-01 14:14:06,387 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:14:06,472 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:14:06,501 - data_utils - INFO - Merging time series and tabular data...
+2025-11-01 14:14:15,972 - train - INFO - Epoch 10/50 - Train Loss: 0.2612, Val Loss: 0.1768, Diabetes Acc: 0.9935, BP Acc: 0.9253
+2025-11-01 14:14:18,882 - train - INFO - Epoch 20/50 - Train Loss: 0.1842, Val Loss: 0.1336, Diabetes Acc: 1.0000, BP Acc: 0.9318
+2025-11-01 14:14:21,800 - train - INFO - Epoch 30/50 - Train Loss: 0.1874, Val Loss: 0.1168, Diabetes Acc: 1.0000, BP Acc: 0.9545
+2025-11-01 14:14:25,029 - train - INFO - Epoch 40/50 - Train Loss: 0.1572, Val Loss: 0.1333, Diabetes Acc: 0.9935, BP Acc: 0.9416
+2025-11-01 14:14:28,040 - train - INFO - Epoch 50/50 - Train Loss: 0.1501, Val Loss: 0.1121, Diabetes Acc: 1.0000, BP Acc: 0.9481
+2025-11-01 14:14:28,040 - train - INFO - Training completed successfully
+2025-11-01 14:15:02,706 - api.api - INFO - Starting GAN model training...
+2025-11-01 14:15:02,707 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:15:02,709 - gan_trainer - INFO - Starting GAN training...
+2025-11-01 14:15:02,709 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:15:02,753 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:15:02,775 - data_utils - INFO - Merging time series and tabular data...
+2025-11-01 14:18:59,080 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:18:59,081 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:18:59,082 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:18:59,538 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:18:59,546 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:18:59,547 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:18:59,634 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:20:04,382 - api.api - INFO - Starting GAN model training...
+2025-11-01 14:20:04,382 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:20:04,383 - gan_trainer - INFO - Starting GAN training...
+2025-11-01 14:20:04,383 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:20:04,449 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:20:04,473 - data_utils - INFO - Merging time series and tabular data...
+2025-11-01 14:21:28,515 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:21:28,516 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:21:28,516 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:21:28,975 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:21:28,983 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:21:28,983 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:21:29,100 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:26:31,056 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:26:31,057 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:26:31,057 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:26:31,237 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:26:31,241 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:26:31,241 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:26:31,269 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:27:23,367 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:27:23,367 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:27:23,368 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:27:23,539 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:27:23,543 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:27:23,543 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:27:23,571 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:29:20,359 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:29:20,359 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:29:20,360 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:29:20,530 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:29:20,533 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:29:20,534 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:29:20,565 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:30:09,467 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:30:09,468 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:30:09,469 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:30:09,901 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:30:09,908 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:30:09,910 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:30:09,998 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:31:34,576 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:31:34,576 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:31:34,577 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:31:34,790 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:31:34,794 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:31:34,795 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:31:34,827 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:31:48,330 - api.api - INFO - Starting GAN model training...
+2025-11-01 14:31:48,330 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:31:48,330 - gan_trainer - INFO - Starting GAN training...
+2025-11-01 14:31:48,331 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:31:48,410 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:31:48,438 - data_utils - INFO - Merging time series and tabular data...
+2025-11-01 14:32:50,642 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-01 14:32:50,643 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-01 14:32:50,644 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-01 14:32:51,141 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:32:51,147 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-01 14:32:51,149 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-01 14:32:51,266 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-01 14:32:59,072 - api.api - INFO - Generating 500 synthetic samples...
+2025-11-01 14:32:59,073 - generate - INFO - Generating 500 synthetic diabetes samples...
+2025-11-01 14:32:59,073 - generate - WARNING - Using statistical fallback for data generation
+2025-11-01 14:32:59,484 - generate - INFO - Synthetic data saved using Statistical method
+2025-11-01 14:32:59,484 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_Statistical_20251101_143259_500.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_Statistical_20251101_143259_500.csv
+2025-11-01 14:33:26,865 - api.api - INFO - Starting comprehensive data validation...
+2025-11-01 14:33:27,803 - api.api - INFO - Validation completed. Quality score: 0.9523
+2025-11-03 19:33:04,984 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-03 19:33:04,985 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-03 19:33:04,986 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-03 19:33:05,512 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-03 19:33:05,526 - gan_trainer - WARNING - Could not load models: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Desktop\\deletee\\ml_service\\trained_models/tabular_generator.pth'
+2025-11-03 19:33:05,527 - generate - WARNING - GAN models not found. Will use statistical generation as fallback.
+2025-11-03 19:33:05,627 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-03 19:33:30,870 - api.api - INFO - Starting GAN model training...
+2025-11-03 19:33:30,871 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-03 19:33:30,872 - gan_trainer - INFO - Starting GAN training...
+2025-11-03 19:33:30,872 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-03 19:33:31,021 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-03 19:33:31,098 - data_utils - INFO - Merging time series and tabular data...
+2025-11-03 19:37:38,759 - gan_trainer - INFO - Epoch 10/50 - TabGenLoss: 0.5292, TsGenLoss: -1.4941, CrossLoss: 0.0347
+2025-11-03 19:41:51,720 - gan_trainer - INFO - Epoch 20/50 - TabGenLoss: 0.5182, TsGenLoss: -1.0877, CrossLoss: 0.0330
+2025-11-03 19:52:33,193 - gan_trainer - INFO - Epoch 30/50 - TabGenLoss: 0.5478, TsGenLoss: -0.8373, CrossLoss: 0.0329
+2025-11-03 19:58:31,822 - gan_trainer - INFO - Epoch 40/50 - TabGenLoss: 0.4081, TsGenLoss: -1.2598, CrossLoss: 0.0319
+2025-11-03 20:11:32,928 - gan_trainer - INFO - Epoch 50/50 - TabGenLoss: 0.3849, TsGenLoss: -1.1200, CrossLoss: 0.0314
+2025-11-03 20:11:33,006 - gan_trainer - INFO - Models saved to C:\Users\Asus\Desktop\deletee\ml_service\trained_models
+2025-11-03 20:11:33,007 - gan_trainer - INFO - GAN training completed successfully
+2025-11-03 20:12:10,990 - api.api - ERROR - Prediction failed: Model not trained. Please train model first.
+2025-11-03 20:12:10,993 - api.api - ERROR - Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\deletee\ml_service\api\api.py", line 301, in predict_diabetes
+    result = trainer.predict(normalized_rbs, tabular_features)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Desktop\deletee\ml_service\train.py", line 155, in predict
+    raise RuntimeError("Model not trained. Please train model first.")
+RuntimeError: Model not trained. Please train model first.
+
+2025-11-03 20:16:22,269 - api.api - INFO - Generating 5000 synthetic samples...
+2025-11-03 20:16:22,270 - generate - INFO - Generating 5000 synthetic diabetes samples...
+2025-11-03 20:16:22,271 - generate - WARNING - Using statistical fallback for data generation
+2025-11-03 20:16:24,791 - generate - INFO - Synthetic data saved using Statistical method
+2025-11-03 20:16:24,791 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_Statistical_20251103_201624_5000.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_Statistical_20251103_201624_5000.csv
+2025-11-03 20:16:42,985 - api.api - INFO - Starting comprehensive data validation...
+2025-11-03 20:16:43,907 - api.api - INFO - Validation completed. Quality score: 0.9523
+2025-11-04 21:38:24,546 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-04 21:38:24,548 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-04 21:38:24,549 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-04 21:38:25,122 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-04 21:38:25,246 - gan_trainer - INFO - Models loaded successfully
+2025-11-04 21:38:25,247 - generate - INFO - Using pretrained GAN models for generation
+2025-11-04 21:38:25,356 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-05 16:35:31,294 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-05 16:35:31,295 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 16:35:31,295 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 16:35:31,860 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-05 16:35:32,251 - gan_trainer - INFO - Models loaded successfully
+2025-11-05 16:35:32,252 - generate - INFO - Using pretrained GAN models for generation
+2025-11-05 16:35:32,377 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-05 16:37:00,002 - api.api - INFO - Generating 500 synthetic samples...
+2025-11-05 16:37:00,002 - generate - INFO - Generating 500 synthetic diabetes samples...
+2025-11-05 16:37:00,004 - generate - INFO - Generating data with GAN models...
+2025-11-05 16:37:00,524 - generate - INFO - Generated 500 patients using GAN
+2025-11-05 16:37:00,630 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 16:37:00,631 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_163700_500.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_163700_500.csv
+2025-11-05 16:38:39,282 - api.api - INFO - Starting comprehensive data validation...
+2025-11-05 16:38:40,293 - api.api - INFO - Validation completed. Quality score: 0.9523
+2025-11-05 16:39:03,456 - api.api - INFO - Starting model training...
+2025-11-05 16:39:03,457 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 16:39:03,458 - train - INFO - Starting diabetes prediction model training...
+2025-11-05 16:39:03,459 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 16:39:03,540 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 16:39:03,562 - data_utils - INFO - Merging time series and tabular data...
+2025-11-05 16:39:13,884 - train - INFO - Epoch 10/50 - Train Loss: 0.2187, Val Loss: 0.2523, Diabetes Acc: 0.9610, BP Acc: 0.9286
+2025-11-05 16:39:17,006 - train - INFO - Epoch 20/50 - Train Loss: 0.2158, Val Loss: 0.1668, Diabetes Acc: 0.9870, BP Acc: 0.9545
+2025-11-05 16:39:20,010 - train - INFO - Epoch 30/50 - Train Loss: 0.1627, Val Loss: 0.1125, Diabetes Acc: 1.0000, BP Acc: 0.9416
+2025-11-05 16:39:22,920 - train - INFO - Epoch 40/50 - Train Loss: 0.1516, Val Loss: 0.1111, Diabetes Acc: 1.0000, BP Acc: 0.9610
+2025-11-05 16:39:25,759 - train - INFO - Epoch 50/50 - Train Loss: 0.1444, Val Loss: 0.1179, Diabetes Acc: 1.0000, BP Acc: 0.9448
+2025-11-05 16:39:25,759 - train - INFO - Training completed successfully
+2025-11-05 16:39:47,607 - api.api - INFO - Generating 501 synthetic samples...
+2025-11-05 16:39:47,607 - generate - INFO - Generating 501 synthetic diabetes samples...
+2025-11-05 16:39:47,607 - generate - INFO - Generating data with GAN models...
+2025-11-05 16:39:47,890 - generate - INFO - Generated 501 patients using GAN
+2025-11-05 16:39:47,981 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 16:39:47,981 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_163947_501.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_163947_501.csv
+2025-11-05 16:40:33,218 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-05 16:40:33,219 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 16:40:33,220 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 16:40:33,614 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-05 16:40:33,710 - gan_trainer - INFO - Models loaded successfully
+2025-11-05 16:40:33,711 - generate - INFO - Using pretrained GAN models for generation
+2025-11-05 16:40:33,820 - gan_trainer - INFO - GAN Trainer initialized on device: cpu
+2025-11-05 16:41:05,951 - api.api - INFO - Starting GAN model training...
+2025-11-05 16:41:05,952 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 16:41:05,953 - gan_trainer - INFO - Starting GAN training...
+2025-11-05 16:41:05,954 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 16:41:06,026 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 16:41:06,054 - data_utils - INFO - Merging time series and tabular data...
+2025-11-05 16:53:37,445 - gan_trainer - INFO - Epoch 10/50 - TabGenLoss: -0.4346, TsGenLoss: 0.1241, CrossLoss: 0.0345
+2025-11-05 17:07:00,277 - gan_trainer - INFO - Epoch 20/50 - TabGenLoss: -0.6157, TsGenLoss: 0.0424, CrossLoss: 0.0332
+2025-11-05 17:19:55,613 - gan_trainer - INFO - Epoch 30/50 - TabGenLoss: -0.3116, TsGenLoss: 0.1406, CrossLoss: 0.0324
+2025-11-05 17:33:03,569 - gan_trainer - INFO - Epoch 40/50 - TabGenLoss: -0.3944, TsGenLoss: -0.0243, CrossLoss: 0.0320
+2025-11-05 17:46:00,331 - gan_trainer - INFO - Epoch 50/50 - TabGenLoss: -0.4227, TsGenLoss: -0.0049, CrossLoss: 0.0312
+2025-11-05 17:46:00,407 - gan_trainer - INFO - Models saved to C:\Users\Asus\Desktop\deletee\ml_service\trained_models
+2025-11-05 17:46:00,407 - gan_trainer - INFO - GAN training completed successfully
+2025-11-05 17:50:20,464 - api.api - INFO - Generating 502 synthetic samples...
+2025-11-05 17:50:20,465 - generate - INFO - Generating 502 synthetic diabetes samples...
+2025-11-05 17:50:20,466 - generate - INFO - Generating data with GAN models...
+2025-11-05 17:50:20,778 - generate - INFO - Generated 502 patients using GAN
+2025-11-05 17:50:20,877 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 17:50:20,878 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_175020_502.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_175020_502.csv
+2025-11-05 17:51:40,608 - api.api - INFO - Generating 503 synthetic samples...
+2025-11-05 17:51:40,609 - generate - INFO - Generating 503 synthetic diabetes samples...
+2025-11-05 17:51:40,610 - generate - INFO - Generating data with GAN models...
+2025-11-05 17:51:40,876 - generate - INFO - Generated 503 patients using GAN
+2025-11-05 17:51:40,972 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 17:51:40,973 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_175140_503.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_175140_503.csv
+2025-11-05 17:52:05,144 - api.api - INFO - Generating 503 synthetic samples...
+2025-11-05 17:52:05,144 - generate - INFO - Generating 503 synthetic diabetes samples...
+2025-11-05 17:52:05,145 - generate - INFO - Generating data with GAN models...
+2025-11-05 17:52:05,447 - generate - INFO - Generated 503 patients using GAN
+2025-11-05 17:52:05,529 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 17:52:05,530 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_175205_503.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_175205_503.csv
+2025-11-05 17:52:28,976 - api.api - INFO - Generating 503 synthetic samples...
+2025-11-05 17:52:28,977 - generate - INFO - Generating 503 synthetic diabetes samples...
+2025-11-05 17:52:28,977 - generate - INFO - Generating data with GAN models...
+2025-11-05 17:52:29,265 - generate - INFO - Generated 503 patients using GAN
+2025-11-05 17:52:29,364 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 17:52:29,365 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_175229_503.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_175229_503.csv
+2025-11-05 17:53:13,819 - api.api - INFO - Generating 504 synthetic samples...
+2025-11-05 17:53:13,819 - generate - INFO - Generating 504 synthetic diabetes samples...
+2025-11-05 17:53:13,820 - generate - INFO - Generating data with GAN models...
+2025-11-05 17:53:14,093 - generate - INFO - Generated 504 patients using GAN
+2025-11-05 17:53:14,183 - generate - INFO - Synthetic data saved using GAN method
+2025-11-05 17:53:14,184 - generate - INFO - Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251105_175314_504.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251105_175314_504.csv
+2025-11-05 18:08:22,017 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-05 18:08:22,018 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:08:22,019 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:08:37,653 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-05 18:08:37,654 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:08:37,654 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:08:56,173 - api.api - INFO - Generating 500 synthetic samples...
+2025-11-05 18:08:56,174 - generate - INFO - Generating 500 synthetic diabetes samples...
+2025-11-05 18:08:56,175 - generate - INFO - Generating data with GAN models...
+2025-11-05 18:12:21,105 - api.api - INFO - Starting GAN model training...
+2025-11-05 18:12:21,106 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:12:21,106 - gan_trainer - INFO - ============================================================
+2025-11-05 18:12:21,107 - gan_trainer - INFO - Starting GAN training...
+2025-11-05 18:12:21,108 - gan_trainer - INFO - Epochs: 100 | Device: cpu
+2025-11-05 18:12:21,108 - gan_trainer - INFO - ============================================================
+2025-11-05 18:12:21,109 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:12:21,155 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:12:21,176 - data_utils - INFO - Merging time series and tabular data...
+2025-11-05 18:16:36,110 - gan_trainer - INFO - Epoch 10/100 - TabGenLoss: -0.4026, TsGenLoss: -0.9500, CrossLoss: 0.0350
+2025-11-05 18:17:55,038 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-05 18:17:55,039 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:17:55,039 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:18:16,344 - api.api - INFO - Starting model training...
+2025-11-05 18:18:16,345 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:18:16,347 - train - INFO - Starting diabetes prediction model training...
+2025-11-05 18:18:16,347 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:18:16,409 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:18:16,437 - data_utils - INFO - Merging time series and tabular data...
+2025-11-05 18:18:23,570 - train - INFO - Epoch 10/50 - Train Loss: 0.2237, Val Loss: 0.1862, Diabetes Acc: 0.9903, BP Acc: 0.9383
+2025-11-05 18:18:26,588 - train - INFO - Epoch 20/50 - Train Loss: 0.1781, Val Loss: 0.1610, Diabetes Acc: 1.0000, BP Acc: 0.9286
+2025-11-05 18:18:29,718 - train - INFO - Epoch 30/50 - Train Loss: 0.1619, Val Loss: 0.1506, Diabetes Acc: 0.9935, BP Acc: 0.9416
+2025-11-05 18:18:32,764 - train - INFO - Epoch 40/50 - Train Loss: 0.1811, Val Loss: 0.1611, Diabetes Acc: 0.9935, BP Acc: 0.9351
+2025-11-05 18:18:35,701 - train - INFO - Epoch 50/50 - Train Loss: 0.1505, Val Loss: 0.1573, Diabetes Acc: 0.9968, BP Acc: 0.9383
+2025-11-05 18:18:35,702 - train - INFO - Training completed successfully
+2025-11-05 18:23:03,600 - config - INFO - Dataset Configuration: Using LOCAL dataset files
+2025-11-05 18:23:03,601 - config - INFO - Time Series Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:23:03,601 - config - INFO - Tabular Path: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:23:31,710 - api.api - INFO - Starting model training...
+2025-11-05 18:23:31,711 - api.api - INFO - Using paths - TS: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv, Tabular: C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:23:31,711 - train - INFO - Starting diabetes prediction model training...
+2025-11-05 18:23:31,712 - data_utils - INFO - Loading time series data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_timeseries_dataset.csv
+2025-11-05 18:23:31,791 - data_utils - INFO - Loading tabular data from C:\Users\Asus\Desktop\deletee\ml_service\datasets\enhanced_diabetes_tabular_dataset.csv
+2025-11-05 18:23:31,816 - data_utils - INFO - Merging time series and tabular data...
+2025-11-05 18:23:38,735 - train - INFO - Epoch 10/50 - Train Loss: 0.2154, Val Loss: 0.1494, Diabetes Acc: 0.9968, BP Acc: 0.9513
+2025-11-05 18:23:41,776 - train - INFO - Epoch 20/50 - Train Loss: 0.1896, Val Loss: 0.1444, Diabetes Acc: 0.9935, BP Acc: 0.9545
+2025-11-05 18:23:44,720 - train - INFO - Epoch 30/50 - Train Loss: 0.1483, Val Loss: 0.1486, Diabetes Acc: 0.9870, BP Acc: 0.9416
+2025-11-05 18:23:47,700 - train - INFO - Epoch 40/50 - Train Loss: 0.1497, Val Loss: 0.1267, Diabetes Acc: 0.9968, BP Acc: 0.9448
+2025-11-05 18:23:50,586 - train - INFO - Epoch 50/50 - Train Loss: 0.1375, Val Loss: 0.1138, Diabetes Acc: 0.9968, BP Acc: 0.9545
+2025-11-05 18:23:50,586 - train - INFO - Training completed successfully
+2025-11-10 21:09:39,534 - config - INFO - ================================================================================
+2025-11-10 21:09:39,535 - config - INFO - [OK] Using GitHub dataset URLs for training and generation
+2025-11-10 21:09:39,535 - config - INFO - [OK] Time Series: https://raw.githubusercontent.com/eswaroy/synthieis/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-10 21:09:39,536 - config - INFO - [OK] Tabular: https://raw.githubusercontent.com/eswaroy/synthieis/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-10 21:09:39,537 - config - INFO - ================================================================================
+2025-11-10 21:09:40,681 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-11-10 21:09:46,989 - gan_trainer - INFO - [OK] GAN Trainer initialized on device: cpu
+2025-11-10 21:09:47,127 - gan_trainer - INFO - [OK] GAN Trainer initialized on device: cpu
+2025-11-10 21:09:47,129 - gan_trainer - INFO - Loading GAN models from: C:\Users\Asus\Desktop\deletee\ml_service\trained_models
+2025-11-10 21:09:47,474 - gan_trainer - INFO - [OK] GAN models loaded successfully from C:\Users\Asus\Desktop\deletee\ml_service\trained_models
+2025-11-10 21:09:47,475 - generate - INFO - [OK] Using pretrained GAN models for generation
+2025-11-10 21:10:03,158 - api.api - INFO - Generating 510 synthetic samples...
+2025-11-10 21:10:03,160 - generate - INFO - Generating 510 synthetic diabetes samples...
+2025-11-10 21:10:03,160 - generate - INFO - Generating data with GAN models...
+2025-11-10 21:10:03,692 - generate - INFO - [OK] Generated 510 patients using GAN
+2025-11-10 21:10:03,699 - generate - INFO - [OK] Diabetes distribution: {1: 314, 0: 196}
+2025-11-10 21:10:03,702 - generate - INFO - [OK] BP status distribution: {1: 286, 0: 224}
+2025-11-10 21:10:03,710 - generate - INFO - [OK] Avg RBS - Diabetic: 199.3, Non-diabetic: 94.4
+2025-11-10 21:10:03,719 - generate - WARNING - Data quality issues detected: ['40 diabetics with HbA1c < 6.3%', '48 non-diabetics with HbA1c > 6.2%']
+2025-11-10 21:10:03,720 - generate - WARNING - Generated data contains medical inconsistencies
+2025-11-10 21:10:03,826 - generate - INFO - [OK] Synthetic data saved using GAN method
+2025-11-10 21:10:03,827 - generate - INFO - [OK] Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251110_211003_510.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251110_211003_510.csv
+2025-11-10 21:37:02,266 - config - INFO - ================================================================================
+2025-11-10 21:37:02,269 - config - INFO - [OK] Using GitHub dataset URLs for training and generation
+2025-11-10 21:37:02,269 - config - INFO - [OK] Time Series: https://raw.githubusercontent.com/eswaroy/synthieis/main/ml_service/datasets/enhanced_diabetes_timeseries_dataset.csv
+2025-11-10 21:37:02,270 - config - INFO - [OK] Tabular: https://raw.githubusercontent.com/eswaroy/synthieis/main/ml_service/datasets/enhanced_diabetes_tabular_dataset.csv
+2025-11-10 21:37:02,271 - config - INFO - ================================================================================
+2025-11-10 21:37:02,867 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-11-10 21:37:06,802 - gan_trainer - INFO - [OK] GAN Trainer initialized on device: cpu
+2025-11-10 21:37:06,907 - gan_trainer - INFO - [OK] GAN Trainer initialized on device: cpu
+2025-11-10 21:37:06,908 - gan_trainer - INFO - Loading GAN models from: C:\Users\Asus\Desktop\deletee\ml_service\trained_models
+2025-11-10 21:37:07,022 - gan_trainer - INFO - [OK] GAN models loaded successfully from C:\Users\Asus\Desktop\deletee\ml_service\trained_models
+2025-11-10 21:37:07,023 - generate - INFO - [OK] Using pretrained GAN models for generation
+2025-11-10 21:37:15,771 - api.api - INFO - Generating 500 synthetic samples...
+2025-11-10 21:37:15,771 - generate - INFO - Generating 500 synthetic diabetes samples...
+2025-11-10 21:37:15,772 - generate - INFO - Generating data with GAN models...
+2025-11-10 21:37:16,192 - generate - INFO - [OK] Generated 500 patients using GAN
+2025-11-10 21:37:16,195 - generate - INFO - [OK] Diabetes distribution: {1: 300, 0: 200}
+2025-11-10 21:37:16,197 - generate - INFO - [OK] BP status distribution: {1: 259, 0: 241}
+2025-11-10 21:37:16,202 - generate - INFO - [OK] Avg RBS - Diabetic: 198.1, Non-diabetic: 93.2
+2025-11-10 21:37:16,209 - generate - WARNING - Data quality issues detected: ['56 diabetics with HbA1c < 6.3%', '34 non-diabetics with HbA1c > 6.2%']
+2025-11-10 21:37:16,210 - generate - WARNING - Generated data contains medical inconsistencies
+2025-11-10 21:37:16,300 - generate - INFO - [OK] Synthetic data saved using GAN method
+2025-11-10 21:37:16,301 - generate - INFO - [OK] Files: C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_timeseries_GAN_20251110_213716_500.csv, C:\Users\Asus\Desktop\deletee\ml_service\synthetic_data\synthetic_tabular_GAN_20251110_213716_500.csv
