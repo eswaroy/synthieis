@@ -322,4 +322,4 @@ For issues, questions, or suggestions:
 
 ---
 
-**Built with ❤️ by [Dasari Ranga Eswar](https://github.com/eswaroy)**
+**[Dasari Ranga Eswar](https://github.com/eswaroy)**
